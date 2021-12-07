@@ -1,0 +1,30 @@
+.container{
+    background-color:#05014a;
+    display: flex;
+    width:50%;
+    gap:10px;
+
+    div{
+       background-color: pink;
+       height: 50px;
+       width:50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+}  
+
+@for $i from 1 through 10 {
+    $num:$num+1;
+    .container>div:nth-child(#{$i})
+    {
+      
+      background-color: rgba(255,192,203 , 1/$i);
+
+    }
+    .container>div:nth-child(#{$i}):hover
+    {
+        background-color: rgba(255,192,203 , $i/10);
+    }
+}

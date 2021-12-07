@@ -1,0 +1,104 @@
+.container {
+  background-color: #05014a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  gap: 10px;
+}
+
+.container div {
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > div:nth-child(1) {
+  background-color: pink;
+}
+
+.container > div:nth-child(1):hover {
+  background-color: rgba(255, 192, 203, 0.1);
+}
+
+.container > div:nth-child(2) {
+  background-color: rgba(255, 192, 203, 0.5);
+}
+
+.container > div:nth-child(2):hover {
+  background-color: rgba(255, 192, 203, 0.2);
+}
+
+.container > div:nth-child(3) {
+  background-color: rgba(255, 192, 203, 0.333333);
+}
+
+.container > div:nth-child(3):hover {
+  background-color: rgba(255, 192, 203, 0.3);
+}
+
+.container > div:nth-child(4) {
+  background-color: rgba(255, 192, 203, 0.25);
+}
+
+.container > div:nth-child(4):hover {
+  background-color: rgba(255, 192, 203, 0.4);
+}
+
+.container > div:nth-child(5) {
+  background-color: rgba(255, 192, 203, 0.2);
+}
+
+.container > div:nth-child(5):hover {
+  background-color: rgba(255, 192, 203, 0.5);
+}
+
+.container > div:nth-child(6) {
+  background-color: rgba(255, 192, 203, 0.166667);
+}
+
+.container > div:nth-child(6):hover {
+  background-color: rgba(255, 192, 203, 0.6);
+}
+
+.container > div:nth-child(7) {
+  background-color: rgba(255, 192, 203, 0.142857);
+}
+
+.container > div:nth-child(7):hover {
+  background-color: rgba(255, 192, 203, 0.7);
+}
+
+.container > div:nth-child(8) {
+  background-color: rgba(255, 192, 203, 0.125);
+}
+
+.container > div:nth-child(8):hover {
+  background-color: rgba(255, 192, 203, 0.8);
+}
+
+.container > div:nth-child(9) {
+  background-color: rgba(255, 192, 203, 0.111111);
+}
+
+.container > div:nth-child(9):hover {
+  background-color: rgba(255, 192, 203, 0.9);
+}
+
+.container > div:nth-child(10) {
+  background-color: rgba(255, 192, 203, 0.1);
+}
+
+.container > div:nth-child(10):hover {
+  background-color: pink;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+body {
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
+nav {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background: #16161e;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+nav .last {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+nav .last span {
+  display: none;
+}
+
+nav .nav-item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0.3;
+  -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: opacity   2s;
+  transition: opacity   2s;
+}
+
+nav .nav-item:hover {
+  opacity: 1;
+}
+
+nav .nav-item:hover span {
+  color: white;
+}
+
+nav .nav-item i {
+  padding: 5px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: pink;
+}
+
+nav .nav-item span {
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  font-family: 'Squada One', cursive;
+  color: transparent;
+}
+
+.content {
+  -ms-flex-preferred-size: 95%;
+      flex-basis: 95%;
+  font-family: 'Squada One', cursive;
+  padding: 10px;
+  background: #1a1b26;
+  color: white;
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav > .nav-item > i {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nav-item > span {
+    display: none;
+  }
+  nav > .last {
+    position: static;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
