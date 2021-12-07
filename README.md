@@ -1,5 +1,9 @@
 
- <img align="left" alt="spring boot" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" />
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width="320" alt="Nest Logo" />
+</p>
+
+
 ## Variables : 
  ```
  $var : 0 ; 
